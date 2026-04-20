@@ -3,7 +3,7 @@
 git clone https://github.com/ISOnRM/readbytes
 pushd readbytes
 make
-make install
+sudo make install
 make clean
 popd
 ```
