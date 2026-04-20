@@ -9,7 +9,7 @@
 #include <stdlib.h>
 
 static void print_usage(const char *prog) {
-    fprintf(stderr, "Usage: %s <filenames>\nnpc in ascii output is non-printable-character\n", prog);
+    fprintf(stderr, "Usage: %s <filenames>\n-h/--help Show this help\nnpc in ascii output is non-printable-character\n", prog);
 }
 
 static int check_args(int argc, char **argv) {
