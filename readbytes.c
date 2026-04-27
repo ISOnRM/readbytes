@@ -63,7 +63,7 @@ int main(int argc, char **argv) {
         //         continue;
         // }
         if (!S_ISREG(st.st_mode)) {
-            printf("file \"%s\" is not a regular file.\n", argv[i]);
+            printf("Argument \"%s\" is not a regular file.\n", argv[i]);
             close(fd);
             continue;
         }
